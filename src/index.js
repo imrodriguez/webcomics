@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Theme from './styles/theme'
+import App from './components/App'
+import './i18n'
+import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Theme>
+        <App />
+      </Theme>
   </React.StrictMode>,
   document.getElementById('root')
 );
