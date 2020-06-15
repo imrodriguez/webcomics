@@ -25,9 +25,9 @@ const Viewer = (props) => {
     <>
       <Page src={props.image} />
       <Options>
-        <button onClick={() => prevPage()}><i class='bx bxs-chevron-left' ></i></button>
+        <button onClick={() => prevPage()}><i className='bx bxs-chevron-left' ></i></button>
         <p>{actualPage}/{props.totalPages}</p>
-        <button onClick={() => nextPage()}><i class='bx bxs-chevron-right' ></i></button>
+        <button onClick={() => nextPage()}><i className='bx bxs-chevron-right' ></i></button>
       </Options>
     </>
   )
