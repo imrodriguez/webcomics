@@ -6,6 +6,7 @@ import Upload from '../Upload'
 import Viewer from '../Viewer'
 import Loading from '../Loading'
 import Error from '../Error'
+import { Author } from '../../styles/global'
 
 const App = (props) => {
   const [comic, setComic] = useState()
@@ -55,6 +56,7 @@ const App = (props) => {
     : <Upload getRootProps={getRootProps} getInputProps={getInputProps} isDragActive={isDragActive}/>
     }
 
+    { !comic && <Author><a href="https://imrodriguez.com">imrodriguez.com</a></Author>}
     </>
   )
 }

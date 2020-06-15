@@ -28,3 +28,17 @@ export const Wrapper = styled.div`
         font-size: 0.7em;
     }
 `
+
+export const Author = styled.div`
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+
+    a {
+        color: ${props => props.theme.colors.alternative};
+        font-weight: 700;
+        font-family: '${props => props.theme.font}';
+        text-decoration: none;
+    }
+`
