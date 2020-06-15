@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a90cb960e0bf188b29fe93755e4109f2",
+    "revision": "7dceaf0db80f3d1ff6d6dea08b04178b",
     "url": "/webcomics/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webcomics/static/js/2.aa28ed91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e294797d28af0c5f500",
-    "url": "/webcomics/static/js/main.6ccb6d83.chunk.js"
+    "revision": "7d74ea4ae75e561f3ca6",
+    "url": "/webcomics/static/js/main.80ed17f7.chunk.js"
   },
   {
     "revision": "0d7b0383a78e06421a9f",
