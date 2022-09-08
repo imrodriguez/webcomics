@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "i18next": "^19.4.5",
     "i18next-browser-languagedetector": "^4.3.0",
-    "jszip": "^3.5.0",
+    "jszip": "^3.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.0.1",
